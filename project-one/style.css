@@ -438,7 +438,7 @@ form select {
     flex-direction: column;
   }
   .about .image img {
-    width: auto;
+    width: 100%;
     height: auto;
   }
   .hero .image p {
@@ -478,6 +478,7 @@ form select {
   .review .review-content-box,
   .hero {
     flex-direction: column;
+    padding: 2rem;
   }
   .about .image img {
     width: auto;
@@ -488,5 +489,10 @@ form select {
   }
   .heading {
     font-size: 3rem;
+  }
+  .about .content h2,
+  .review .heading .content h1,
+  .hero .content h1 {
+    font-size: 22px;
   }
 }
