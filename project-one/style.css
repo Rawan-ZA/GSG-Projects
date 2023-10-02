@@ -474,6 +474,13 @@ form select {
   html {
     font-size: 50%;
   }
+  .hero .content p{
+    width: 100%;
+  }
+  .popular-courses .courses .course .thumb .rating{
+    width: 100%;
+    padding: 20px;
+  }
   .about,
   .review .review-content-box,
   .hero {
@@ -481,7 +488,7 @@ form select {
     padding: 2rem;
   }
   .about .image img {
-    width: auto;
+    width: 100%;
     height: auto;
   }
   .home .content h3 {
@@ -493,6 +500,7 @@ form select {
   .about .content h2,
   .review .heading .content h1,
   .hero .content h1 {
-    font-size: 22px;
+    font-size: 20px;
+    width: 100%;
   }
 }
