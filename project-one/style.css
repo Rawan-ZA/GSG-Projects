@@ -477,9 +477,8 @@ form select {
   .hero .content p{
     width: 100%;
   }
-  .popular-courses .courses .course .thumb .rating{
+  .popular-courses .courses .course{
     width: 100%;
-    padding: 20px;
   }
   .about,
   .review .review-content-box,
@@ -487,9 +486,14 @@ form select {
     flex-direction: column;
     padding: 2rem;
   }
-  .about .image img {
+ .hero .image img,
+ .about .image img {
     width: 100%;
     height: auto;
+  }
+  .hero .image p{
+    top: 50%;
+    left: 60%;
   }
   .home .content h3 {
     font-size: 4rem;
