@@ -34,6 +34,10 @@ select {
   background-color: var(--main-color);
   border-radius: 10px;
 }
+::selection{
+  background-color: var(--main-color);
+  color: var(--white);
+}
 :root {
   --heading-font: "Poppins", sans-serif;
   --heading-color: #1b1d21;
@@ -471,7 +475,7 @@ form select {
     font-size: 28px;
   }
   .hero .content h1 {
-    padding: 15px;
+    padding: 15px 0 15px 0;
   }
   .review .review-content-box .review-content .content {
     font-size: 17px;
@@ -505,6 +509,7 @@ form select {
   .hero .image p{
     top: 50%;
     left: 60%;
+    font-size: 14px;
   }
   .home .content h3 {
     font-size: 4rem;
