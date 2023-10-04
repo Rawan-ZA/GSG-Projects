@@ -232,7 +232,7 @@ form select {
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .popular-courses .courses .course {
   background-color: var(--white);
