@@ -499,7 +499,6 @@ form select {
   .review .review-content-box,
   .hero {
     flex-direction: column;
-    padding: 2rem;
   }
  .hero .image img,
  .about .image img {
